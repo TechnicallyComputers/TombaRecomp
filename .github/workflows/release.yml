@@ -550,7 +550,7 @@ jobs:
           name: tomba-${{ matrix.artifact }}
           path: dist/tomba-*-${{ matrix.artifact }}.zip
           if-no-files-found: error
-          retention-days: 30
+          retention-days: 5
 
   release:
     name: GitHub Release
